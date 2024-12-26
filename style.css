@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+  
+  
+
+body{
+    background-color: rgb(16, 15, 15);}
+ 
+.con{
+    display: flex;
+}
+
+
+.left{
+    height: 100%;
+    width: 200px;}
+   
+
+.right{
+    height: 100%;
+    width: 1200px;
+
+}
+
+.search{
+    height: 60px;
+    width: 1150px;
+   
+ 
+
+}
+.keyword{
+    height: 40px;
+    width: 1200px;
+
+
+
+}
+
+
+.logosection{
+    height: 30%;
+
+}
+
+.bar{
+    height: 20px;
+    width: 20px;
+    filter: invert();
+    position: relative;
+    left: 20px;
+    top: 20px;
+    cursor: pointer; 
+
+}
+
+.youtubelogo{
+    width: 100px;
+    height: 100px;
+    /* filter: invert(); */
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 45px;
+    
+}
+
+
+
+.hometag{
+    display: flex;
+    height: 60px;
+    cursor: pointer; 
+
+}
+
+.homelogo{
+    height: 20px;
+    width: 20px;
+    filter: invert();
+    position: relative;
+    left: 20px;
+    top: 40px;
+    z-index: 2;
+    cursor: pointer; 
+
+
+}
+
+.hometagbutton{
+    height: 30px;
+    width: 100px;
+    position: relative;
+   top:40px;
+   left:50px;
+   background-color: rgb(16, 15, 15);
+   color: white;
+   cursor: pointer; 
+   
+}
+
+.hometagbutton:hover{
+    background-color: rgb(34, 32, 32);
+    border-radius: 10px;
+}
+
+
+.searchtag{
+    display: flex;
+    height: 30px;
+    cursor: pointer; 
+
+}
+
+
+
+.searchlogo{
+    height: 20px;
+    width: 20px;
+    filter: invert();
+    position: relative;
+    left: 20px;
+    top: 10px;
+    z-index: 2;
+    cursor: pointer; 
+
+
+}
+
+.searchtagbutton{
+    height: 30px;
+    width: 100px;
+    position: relative;
+   top:10px;
+   left:50px;
+   background-color: rgb(16, 15, 15);
+   color: white;
+   cursor: pointer; 
+   
+}
+
+.searchtagbutton:hover{
+    background-color: rgb(34, 32, 32);
+    border-radius: 10px;
+}
+
+
+
+.subtag{
+    display: flex;
+    height: 20px;
+
+
+}
+
+.sep{
+    height:1px;
+    width:170px;
+    background-color: grey;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 10px;
+
+}
+.sep2{
+    height:1px;
+    width:170px;
+    background-color: grey;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+.you{
+    height: 5px;
+    color:white;
+    margin-left: 20px;
+    font-weight: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer; 
+
+}
+.search{
+    margin-left: 90px;
+}
+.channeltag{
+    height: 40px;
+    display: flex;
+
+}
+
+.searchbar{
+    height: 40px;
+    width: 600px;
+    color:white;
+    background-color: rgb(16, 15, 15);
+    border: 1px solid grey;
+    border-radius: 100px;
+
+    
+
+}
+
+.searchbar::placeholder {
+position: relative;
+left:50px
+  }
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+  }
+
+.searchinglogo{
+    margin-top: -50px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(192, 192, 192);
+    border-radius:  0px 100px 100px 0px;
+    position: relative;
+    left: -80px;
+    top:25px;
+    cursor: pointer; 
+
+
+    
+
+  }
+
+  .voicelogo {
+    height: 24px;               /* Adjusted height for consistency */
+    width: 24px;                /* Adjusted width */
+    background-color: transparent;  /* YouTube voice search button has no background color */
+    filter: invert(0);          /* No color inversion, but you can adjust this if needed */
+    border-radius: 50%;         /* Keeping it circular */
+    position: relative;
+    left: -60px;                /* Adjust based on layout */
+    /* top: 25px; */
+    object-fit: cover;          /* Ensures the image fits well inside the circle */
+    cursor: pointer; 
+    filter: invert();           /* Makes the icon clickable, just like YouTube */
+}
+
+
+.videocameralogo{
+    height: 30px;
+    width: 30px;
+    filter: invert();
+    position: relative;
+    left: 120px;
+    /* top: 20px; */
+    cursor: pointer; 
+
+}
+
+.raazlogo{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top:5px
+}
+
+.parentli{
+    display: flex;
+    gap:10px
+
+}
+.parentli:nth-child(1){
+    margin-left: 20px;
+}
+
+.trendingtopic{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    height:30px;
+    width:90px;
+    background-color: rgb(44, 42, 42);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    
+    
+}
+
+.trendingtopic:hover{
+    background-color: white;
+    color:black;
+}
+
+
+.youtubevideo{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+}
+.y1{
+    height: 200px;
+    width:300px;
+   
+   
+
+}
+.yt{
+    height: 150px;
+    width:250px;
+    border-radius: 10px;
+}
+
+.yt:nth-child(1){
+    height: 150px;
+    width:250px;
+    margin:20px;
+    border-radius: 10px;
+}
+
+
+
+
+.title{
+    /* text-align: center; */
+    color: white;
+    font-size: 20px;
+    margin-top:-20px;
+    margin-left: 25px;
+}
+
+.name{
+    color:white;
+    position: relative;
+    top:60px;
+    left:20px
+}
+
+.channel1{
+    display: flex;
+    gap:10px;
+    position: absolute;
+    margin-top:-640px;
+    margin-left: 10px;
+}
+
+.logo1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position:absolute;
+    margin-top: 4px;
+    /* margin-left: 150px; */
+    
+}
+
+.logo2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position:absolute;
+    margin-left: 150px;
+    
+}
+
+.text{
+    color:white;
+    position: relative;
+   font-size: 15px;
+   top:6px;
+   margin-left: 40px;
+}
+
+.ch2{
+    /* position: relative; */
+    top:675px;
+    left:-10px
+
+}
+.ch3{
+    /* position: relative; */
+    top:710px;
+    left:-10px
+
+}
+.ch4{
+    /* position: relative; */
+    top:740px;
+    left:-10px
+
+}
+.ch5{
+    /* position: relative; */
+    top:770px;
+    left:-10px
+
+}
+.ch6{
+    /* position: relative; */
+    top:805px;
+    left:-10px
+
+}
+.ch7{
+    /* position: relative; */
+    top:840px;
+    left:-10px
+
+}
+.ch8{
+    /* position: relative; */
+    top:880px;
+    left:-10px
+
+}
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #ffffff;
+    border-top: 10px solid transparent; /* This makes only part of the circle visible */
+    animation: rotate 2s linear infinite; /* Apply the rotating animation */
+    margin-top: 300px;
+    margin-left: 650px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}

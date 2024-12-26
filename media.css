@@ -1,0 +1,228 @@
+/* Media Queries for Responsive Design */
+
+/* For Mobile Devices (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+    .con {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        height: auto;
+    }
+
+    .right {
+        width: 100%;
+        height: auto;
+    }
+
+    .search {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .keyword {
+        width: 100%;
+    }
+
+    .youtubevideo {
+        flex-direction: column;
+    }
+
+    .y1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .yt {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        margin-left: 0;
+    }
+
+    .channel1 {
+        margin-top: -200px;
+        margin-left: 0;
+    }
+
+    .ch2, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8 {
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .circle {
+        margin-top: 100px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* For Tablet Devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .con {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        height: auto;
+    }
+
+    .right {
+        width: 100%;
+        height: auto;
+    }
+
+    .search {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .keyword {
+        width: 100%;
+    }
+
+    .youtubevideo {
+        flex-direction: column;
+    }
+
+    .y1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .yt {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        margin-left: 0;
+    }
+
+    .channel1 {
+        margin-top: -200px;
+        margin-left: 0;
+    }
+
+    .ch2, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8 {
+        top: 0;
+        left: 0;
+        margin-top: 20px;
+    }
+
+    .circle {
+        margin-top: 150px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* For Desktop Devices (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+    .con {
+        flex-direction: row;
+    }
+
+    .left {
+        width: 200px;
+        height: 100%;
+    }
+
+    .right {
+        width: 800px;
+        height: 100%;
+    }
+
+    .search {
+        margin-left: 90px;
+        width: 700px;
+    }
+
+    .keyword {
+        width: 800px;
+    }
+
+    .youtubevideo {
+        flex-direction: row;
+    }
+
+    .y1 {
+        width: 250px;
+        height: 200px;
+    }
+
+    .yt {
+        width: 200px;
+        height: 150px;
+    }
+
+    .title {
+        margin-left: 25px;
+    }
+
+    .channel1 {
+        margin-top: -640px;
+        margin-left: 10px;
+    }
+
+    .ch2, .ch3, .ch4, .ch5, .ch6, .ch7, .ch8 {
+        top: 675px;
+        left: -10px;
+        margin-top: 20px;
+    }
+
+    .circle {
+        margin-top: 300px;
+        margin-left: 650px;
+    }
+}
+
+/* For Large Desktop Devices (max-width: 1280px) */
+@media only screen and (max-width: 1280px) {
+    .con {
+        flex-direction: row;
+    }
+
+    .left {
+        width: 200px;
+        height: 100%;
+    }
+
+    .right {
+        width: 1000px;
+        height: 100%;
+    }
+
+    .search {
+        margin-left: 90px;
+        width: 900px;
+    }
+
+    .keyword {
+        width: 1000px;
+    }
+
+    .youtubevideo {
+        flex-direction: row;
+    }
+
+    .y1 {
+        width: 300px;
+        height: 200px;
+    }
+
+    .yt {
+        width: 250px;
+        height: 150px;
+    }
+
+    .title {
+        margin-left: 25px;
+    }
+
+}
